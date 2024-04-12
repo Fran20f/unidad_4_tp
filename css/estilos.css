@@ -1,0 +1,147 @@
+* {
+    font-family: Verdana;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+} 
+
+h3 {
+    text-align: center;
+} 
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    left: 0;
+}
+
+.nav {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+body {
+    background-color: cadetblue;
+    margin: 0; 
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    background-color: red;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block; margin-left: auto; margin-right: auto; border-radius: 10%; max-width: 300px; max-height: 300px;
+}
+
+.social-icons a {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    display: inline-block;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.formulario_div {
+    background-color: #f5f5dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+textarea,
+
+
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #a86303;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #472101;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"] {
+    background-color: #69f169;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_form{
+    text-align: center;
+}
+
+
+select option {
+    padding: 10px;
+    font-weight: bold;
+}
